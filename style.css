@@ -132,6 +132,10 @@ nav a {
   border-radius: 12px;
   padding: 44px;
 }
+.all-plans li {
+  margin-bottom: 10px;
+}
+
 .standard-plan h3,
 .pro-plan h3,
 .team-plan h3 {
@@ -141,10 +145,9 @@ nav a {
 .pro-plan {
   background-color: #0d1b2a;
   color: white;
-  
 }
-.pro-plan h4{
-color: #93C5FD;
+.pro-plan h4 {
+  color: #93c5fd;
 }
 .pro-plan-btn {
   background-color: #1d4ed8;
@@ -167,4 +170,29 @@ color: #93C5FD;
   border: none;
   margin-top: 20px;
   cursor: pointer;
+}
+
+/* Footer-section */
+
+footer {
+  background-color: #0d1b2a;
+  color: #cbc7c7;
+  padding: 50px;
+}
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.cpyright {
+  text-align: center;
+  margin-top: 30px;
+}
+.footer-icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.footer-icons a {
+  color: #cbc7c7;
 }
