@@ -18,9 +18,9 @@
   border: none;
   cursor: pointer;
 }
-/* .text-color {
+.text-color {
   color: #575757;
-} */
+}
 
 /* navbar */
 /* nav {
@@ -104,4 +104,67 @@ nav a {
   color: #575757;
   margin-top: 12px;
   margin-bottom: 20px;
+}
+
+/* Secure your spot */
+.secure-your-spot {
+  margin-top: 100px;
+  text-align: center;
+}
+.secure-your-spot hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.secure-your-spot-plans {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.secure-your-spot h2 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.all-plans {
+  text-align: left;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ddd9d9;
+  border-radius: 12px;
+  padding: 44px;
+}
+.standard-plan h3,
+.pro-plan h3,
+.team-plan h3 {
+  font-weight: bold;
+  font-size: 44px;
+}
+.pro-plan {
+  background-color: #0d1b2a;
+  color: white;
+  
+}
+.pro-plan h4{
+color: #93C5FD;
+}
+.pro-plan-btn {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 12px 65px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.other-plan-btn {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 12px 65px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
 }
