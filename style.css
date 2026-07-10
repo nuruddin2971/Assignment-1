@@ -66,3 +66,23 @@ nav a {
   margin-top: 20px;
   margin-bottom: 150px;
 }
+
+/* Meet the speakers */
+.meet-the-speakers {
+  margin-top: 100px;
+  text-align: center;
+  border: 2px solid red;
+}
+.meet-the-speakers h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.meet-the-speakers-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.meet-the-speakers-card img {
+  max-width: 100%;
+}
